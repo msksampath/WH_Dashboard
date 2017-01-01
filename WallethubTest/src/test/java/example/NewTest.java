@@ -197,9 +197,8 @@ public class NewTest {
 
   }
 @Test
-  public void Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts() throws Exception  {
+  public void Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts()  {
 	  	driver.findElement(By.xpath(".//*[@id='credit-report']/section[1]/div[2]/div[2]")).click();
-	  	driver.wait(1000);
 		String CCNAVYFCUstatus = driver.findElement(By.xpath(".//*[@id='credit-report']/section[1]/div[2]/div[2]/div[2]/span[2]")).getText();
 	 Assert.assertTrue(CCNAVYFCUstatus.equals(Util.CC_NAVYFCUstatus));	
 
