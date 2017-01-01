@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="example.NewTest">
         <methods>
-          <include name="No_of_Collections"/>
-          <include name="Balance_Collections4"/>
-          <include name="Credit_Inquiry1"/>
-          <include name="Balance_Collections2"/>
-          <include name="No_of_Public_Records"/>
-          <include name="Amount_PublicRecords"/>
+          <include name="afterTest"/>
+          <include name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported"/>
+          <include name="Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts"/>
           <include name="beforeTest"/>
-          <include name="Balance_Accounts3"/>
-          <include name="Balance_Accounts6"/>
-          <include name="Balance_Accounts1"/>
-          <include name="Balance_Accounts4"/>
-          <include name="Balance_Accounts7"/>
-          <include name="Balance_Accounts5"/>
-          <include name="Balance_Accounts8"/>
-          <include name="Balance_Collections3"/>
-          <include name="No_of_Credit_Inquires"/>
-          <include name="Balance_Accounts2"/>
-          <include name="Credit_Inquiry2"/>
-          <include name="Balance_Collections1"/>
-          <include name="No_of_Open_Accounts"/>
+          <include name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED"/>
         </methods>
       </class> <!-- example.NewTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

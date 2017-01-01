@@ -17,8 +17,18 @@ public class Util {
     public static final String FILE_PATH = "testData.xls"; // File Path
     public static final String SHEET_NAME1 = "Data"; // Sheet name
     public static final String SHEET_NAME2 = "Test_data";
+    public static final String SHEET_NAME3 = "Test_dataMywallet";// Sheet name
+    public static final String SHEET_NAME4 = "Test_dataCollections";// Sheet name
+    public static final String SHEET_NAME5 = "Test_dataPublicRecords";// Sheet name
+    public static final String SHEET_NAME6 = "Test_dataCreditInquries";// Sheet name
+    public static final String SHEET_NAME7 = "Test_dataPersonalInformation";// Sheet name
     public static final String TABLE_NAME = "testData"; // Name of data table
     public static final String TABLE_NAME2 = "test_Data";
+    public static final String TABLE_NAME3 = "test";
+    public static final String TABLE_NAME4 = "test_collections";
+    public static final String TABLE_NAME5 = "test_PublicRecords";
+    public static final String TABLE_NAME6 = "test_CI";
+    public static final String TABLE_NAME7 = "test_PI";
     public static final int WAIT_TIME = 60; // Delay time to wait the website
 					    // launch completely
     public static final String BASE_URL = "https://efdevhub.info/join/login";
@@ -46,6 +56,77 @@ public class Util {
     public static String TAXLIENRecoderOfDeeds_AMOUNT;
     public static String QUICKENLOAN_TYPE;
     public static String BRCLYSBANKDE_TYPE;
+
+    public static String LFBALANCE_1;
+    public static String LFBALANCE_2;
+    public static String MDS_BALANCE;
+    public static String LFBALANCE_3;
+    public static String NFBalance_1;
+    public static String MS_Balance;
+    public static String BOA_Balance;
+    public static String CRLNF1_Balance;
+    public static String CRLNF2_Balance;
+    public static String SNF_Balance;
+    public static String LCBF_Balance;
+    public static String LCNF_Balance;
+    public static String LFA_T;
+    public static String LFD_O;
+    
+    
+    
+    public static String Name_Address;
+    public static String Name_Address_1;
+    public static String CC_NAVYFCUstatus;
+    public static String AC_no;
+    public static String DO_1;
+    public static String A_T;
+    public static String CL_1;
+    public static String HB_1;
+    public static String RES_1;
+    public static String A_D;
+    public static String REM_1;
+    public static String C_I;
+    public static String L_R;
+    public static String A_P_D;
+    public static String PH_1;
+    public static String DO_C;
+    public static String LR_C;
+    public static String OC_C;
+    public static String Res_C;
+    public static String AD_C;
+    public static String AC_C;
+    public static String Rem_C;
+    public static String AN_C;
+    public static String HB_C;
+    public static String CI_C;
+    
+    //Declaration of Varialbles for Creditreport_PublicRecords
+    public static String TLRD_A;
+    public static String TLRD_S;
+    public static String TLRDD_F;
+    public static String TLRDC_D;
+    public static String TLRDR_N;
+    public static String TLRD_C; 
+    public static String TLRDD_C;
+    
+    //Declaration of Variables for Creditreport_Credit Inquiries
+    public static String INQL_T;
+    public static String INQL_D;
+    public static String INQL_ERD;
+    public static String INQL_ICD;
+    public static String INBT;
+    
+    //Declaration of Variables for Creditreport_Personal Information
+    public static String PINR_1;
+    public static String PINR_2;
+    public static String PICA_1;
+    public static String PICA_2;
+    public static String PIPA_1;
+    public static String PIPA_2;
+    public static String PI_PA_1;
+    public static String PI_PA_2;
+    public static String PICE_1;
+    public static String PICE_2;
 
 
     /**
