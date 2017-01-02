@@ -3,15 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="example.NewTest">
+      <class name="example.Dashboard_Test">
         <methods>
-          <include name="afterTest"/>
-          <include name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported"/>
-          <include name="Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts"/>
-          <include name="beforeTest"/>
-          <include name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED"/>
+          <include name="Balance_BK_OF_AMER"/>
+          <include name="Balance_CAR_LOAN_NAVY_FCU"/>
+          <include name="Balance_LVNV_FUNDING_1"/>
+          <include name="Balance_LINE_OF_CREDIT_BENFCL_HFC"/>
+          <include name="Balance_LVNV_FUNDING"/>
+          <include name="Balance_LINE_OF_CREDIT_NAVY_FCU"/>
+          <include name="Balance_MED_DATA_SYS"/>
+          <include name="Balance_SECURED_NAVY_FCU"/>
+          <include name="Balance_MIL_STAR"/>
+          <include name="Balance_CAR_LOAN_NAVY_FCU1"/>
         </methods>
-      </class> <!-- example.NewTest -->
+      </class> <!-- example.Dashboard_Test -->
+      <class name="example.CreditReports_Tests">
+        <methods>
+          <include name="aftertest"/>
+          <include name="A1_Navigation"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- example.CreditReports_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

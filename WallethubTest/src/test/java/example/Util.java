@@ -71,9 +71,14 @@ public class Util {
     public static String LCNF_Balance;
     public static String LFA_T;
     public static String LFD_O;
-    
-    
-    
+    public static String LFO_C;
+    public static String A_N;
+    public static String H_B;
+    public static String LFC_I;
+    public static String Re_s;
+    public static String LFA_D;
+    public static String A_C;
+    public static String Re_m;    
     public static String Name_Address;
     public static String Name_Address_1;
     public static String CC_NAVYFCUstatus;
@@ -99,6 +104,7 @@ public class Util {
     public static String AN_C;
     public static String HB_C;
     public static String CI_C;
+    public static String R_T;
     
     //Declaration of Varialbles for Creditreport_PublicRecords
     public static String TLRD_A;

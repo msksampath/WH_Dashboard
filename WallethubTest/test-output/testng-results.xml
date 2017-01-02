@@ -1,233 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="53" passed="53">
+<testng-results skipped="0" failed="0" total="75" passed="75">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="142643" started-at="2017-01-01T08:59:55Z" finished-at="2017-01-01T09:02:18Z">
+  <suite name="Default suite" duration-ms="279775" started-at="2017-01-02T20:08:46Z" finished-at="2017-01-02T20:13:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="142643" started-at="2017-01-01T08:59:55Z" finished-at="2017-01-01T09:02:18Z">
-      <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@6e06451e]" name="beforeTest" is-config="true" duration-ms="123537" started-at="2017-01-01T14:29:55Z" finished-at="2017-01-01T14:31:59Z">
+    <test name="Default test" duration-ms="279775" started-at="2017-01-02T20:08:46Z" finished-at="2017-01-02T20:13:26Z">
+      <class name="example.CreditReports_Tests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="beforeTest" is-config="true" duration-ms="92264" started-at="2017-01-03T01:40:24Z" finished-at="2017-01-03T01:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Static_Data_Amount_PublicRecords()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Amount_PublicRecords" duration-ms="415" started-at="2017-01-01T14:31:59Z" finished-at="2017-01-01T14:31:59Z">
+        <test-method status="PASS" signature="A1_Navigation_Credit_reports()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="A1_Navigation_Credit_reports" duration-ms="38262" started-at="2017-01-03T01:41:56Z" finished-at="2017-01-03T01:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1_Navigation_Credit_reports -->
+        <test-method status="PASS" signature="Static_Data_Amount_PublicRecords()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Amount_PublicRecords" duration-ms="429" started-at="2017-01-03T01:42:34Z" finished-at="2017-01-03T01:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Amount_PublicRecords -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts1()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts1" duration-ms="307" started-at="2017-01-01T14:31:59Z" finished-at="2017-01-01T14:31:59Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts1()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts1" duration-ms="324" started-at="2017-01-03T01:42:35Z" finished-at="2017-01-03T01:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts1 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts2()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts2" duration-ms="262" started-at="2017-01-01T14:31:59Z" finished-at="2017-01-01T14:32:00Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts2()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts2" duration-ms="242" started-at="2017-01-03T01:42:35Z" finished-at="2017-01-03T01:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts2 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts3()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts3" duration-ms="271" started-at="2017-01-01T14:32:00Z" finished-at="2017-01-01T14:32:00Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts3()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts3" duration-ms="283" started-at="2017-01-03T01:42:35Z" finished-at="2017-01-03T01:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts3 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts4()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts4" duration-ms="229" started-at="2017-01-01T14:32:00Z" finished-at="2017-01-01T14:32:00Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts4()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts4" duration-ms="302" started-at="2017-01-03T01:42:36Z" finished-at="2017-01-03T01:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts4 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts5()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts5" duration-ms="451" started-at="2017-01-01T14:32:00Z" finished-at="2017-01-01T14:32:01Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts5()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts5" duration-ms="322" started-at="2017-01-03T01:42:36Z" finished-at="2017-01-03T01:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts5 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts6()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts6" duration-ms="190" started-at="2017-01-01T14:32:01Z" finished-at="2017-01-01T14:32:01Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts6()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts6" duration-ms="282" started-at="2017-01-03T01:42:36Z" finished-at="2017-01-03T01:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts6 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts7()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts7" duration-ms="256" started-at="2017-01-01T14:32:01Z" finished-at="2017-01-01T14:32:01Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts7()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts7" duration-ms="292" started-at="2017-01-03T01:42:36Z" finished-at="2017-01-03T01:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts7 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Accounts8()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Accounts8" duration-ms="294" started-at="2017-01-01T14:32:01Z" finished-at="2017-01-01T14:32:01Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Accounts8()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Accounts8" duration-ms="293" started-at="2017-01-03T01:42:37Z" finished-at="2017-01-03T01:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Accounts8 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Collections1()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Collections1" duration-ms="300" started-at="2017-01-01T14:32:01Z" finished-at="2017-01-01T14:32:02Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Collections1()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Collections1" duration-ms="292" started-at="2017-01-03T01:42:37Z" finished-at="2017-01-03T01:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Collections1 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Collections2()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Collections2" duration-ms="318" started-at="2017-01-01T14:32:02Z" finished-at="2017-01-01T14:32:02Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Collections2()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Collections2" duration-ms="284" started-at="2017-01-03T01:42:37Z" finished-at="2017-01-03T01:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Collections2 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Collections3()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Collections3" duration-ms="245" started-at="2017-01-01T14:32:02Z" finished-at="2017-01-01T14:32:02Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Collections3()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Collections3" duration-ms="315" started-at="2017-01-03T01:42:38Z" finished-at="2017-01-03T01:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Collections3 -->
-        <test-method status="PASS" signature="Static_Data_Balance_Collections4()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Balance_Collections4" duration-ms="270" started-at="2017-01-01T14:32:02Z" finished-at="2017-01-01T14:32:03Z">
+        <test-method status="PASS" signature="Static_Data_Balance_Collections4()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Balance_Collections4" duration-ms="247" started-at="2017-01-03T01:42:38Z" finished-at="2017-01-03T01:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Balance_Collections4 -->
-        <test-method status="PASS" signature="Static_Data_Credit_Inquiry1()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Credit_Inquiry1" duration-ms="291" started-at="2017-01-01T14:32:03Z" finished-at="2017-01-01T14:32:03Z">
+        <test-method status="PASS" signature="Static_Data_Credit_Inquiry1()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Credit_Inquiry1" duration-ms="235" started-at="2017-01-03T01:42:38Z" finished-at="2017-01-03T01:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Credit_Inquiry1 -->
-        <test-method status="PASS" signature="Static_Data_Credit_Inquiry2()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Credit_Inquiry2" duration-ms="318" started-at="2017-01-01T14:32:03Z" finished-at="2017-01-01T14:32:03Z">
+        <test-method status="PASS" signature="Static_Data_Credit_Inquiry2()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Credit_Inquiry2" duration-ms="212" started-at="2017-01-03T01:42:38Z" finished-at="2017-01-03T01:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Credit_Inquiry2 -->
-        <test-method status="PASS" signature="Static_Data_No_of_Collections()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_No_of_Collections" duration-ms="246" started-at="2017-01-01T14:32:03Z" finished-at="2017-01-01T14:32:03Z">
+        <test-method status="PASS" signature="Static_Data_No_of_Collections()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_No_of_Collections" duration-ms="179" started-at="2017-01-03T01:42:39Z" finished-at="2017-01-03T01:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_No_of_Collections -->
-        <test-method status="PASS" signature="Static_Data_No_of_Credit_Inquires()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_No_of_Credit_Inquires" duration-ms="279" started-at="2017-01-01T14:32:04Z" finished-at="2017-01-01T14:32:04Z">
+        <test-method status="PASS" signature="Static_Data_No_of_Credit_Inquires()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_No_of_Credit_Inquires" duration-ms="184" started-at="2017-01-03T01:42:39Z" finished-at="2017-01-03T01:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_No_of_Credit_Inquires -->
-        <test-method status="PASS" signature="Static_Data_No_of_Open_Accounts()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_No_of_Open_Accounts" duration-ms="251" started-at="2017-01-01T14:32:04Z" finished-at="2017-01-01T14:32:04Z">
+        <test-method status="PASS" signature="Static_Data_No_of_Open_Accounts()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_No_of_Open_Accounts" duration-ms="181" started-at="2017-01-03T01:42:39Z" finished-at="2017-01-03T01:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_No_of_Open_Accounts -->
-        <test-method status="PASS" signature="Static_Data_No_of_Public_Records()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_No_of_Public_Records" duration-ms="248" started-at="2017-01-01T14:32:04Z" finished-at="2017-01-01T14:32:04Z">
+        <test-method status="PASS" signature="Static_Data_No_of_Public_Records()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_No_of_Public_Records" duration-ms="185" started-at="2017-01-03T01:42:39Z" finished-at="2017-01-03T01:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_No_of_Public_Records -->
-        <test-method status="PASS" signature="Static_Data_Validation_Name_and_Address()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Validation_Name_and_Address" duration-ms="275" started-at="2017-01-01T14:32:04Z" finished-at="2017-01-01T14:32:05Z">
+        <test-method status="PASS" signature="Static_Data_Validation_Name_and_Address()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Validation_Name_and_Address" duration-ms="235" started-at="2017-01-03T01:42:39Z" finished-at="2017-01-03T01:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Validation_Name_and_Address -->
-        <test-method status="PASS" signature="Static_Data_Validation_closed_under_Open_Accounts()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Validation_closed_under_Open_Accounts" duration-ms="447" started-at="2017-01-01T14:32:05Z" finished-at="2017-01-01T14:32:05Z">
+        <test-method status="PASS" signature="Static_Data_Validation_closed_under_Open_Accounts()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Validation_closed_under_Open_Accounts" duration-ms="454" started-at="2017-01-03T01:42:40Z" finished-at="2017-01-03T01:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Validation_closed_under_Open_Accounts -->
-        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Current_Address()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Validation_personal_Information_For_Current_Address" duration-ms="254" started-at="2017-01-01T14:32:05Z" finished-at="2017-01-01T14:32:05Z">
+        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Current_Address()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Validation_personal_Information_For_Current_Address" duration-ms="352" started-at="2017-01-03T01:42:40Z" finished-at="2017-01-03T01:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Validation_personal_Information_For_Current_Address -->
-        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Current_Employer()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Validation_personal_Information_For_Current_Employer" duration-ms="231" started-at="2017-01-01T14:32:05Z" finished-at="2017-01-01T14:32:06Z">
+        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Current_Employer()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Validation_personal_Information_For_Current_Employer" duration-ms="383" started-at="2017-01-03T01:42:40Z" finished-at="2017-01-03T01:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Validation_personal_Information_For_Current_Employer -->
-        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Previous_Address1()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Validation_personal_Information_For_Previous_Address1" duration-ms="214" started-at="2017-01-01T14:32:06Z" finished-at="2017-01-01T14:32:06Z">
+        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Previous_Address1()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Validation_personal_Information_For_Previous_Address1" duration-ms="237" started-at="2017-01-03T01:42:41Z" finished-at="2017-01-03T01:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Validation_personal_Information_For_Previous_Address1 -->
-        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Previous_Address2()[pri:0, instance:example.NewTest@6e06451e]" name="Static_Data_Validation_personal_Information_For_Previous_Address2" duration-ms="216" started-at="2017-01-01T14:32:06Z" finished-at="2017-01-01T14:32:06Z">
+        <test-method status="PASS" signature="Static_Data_Validation_personal_Information_For_Previous_Address2()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Static_Data_Validation_personal_Information_For_Previous_Address2" duration-ms="285" started-at="2017-01-03T01:42:41Z" finished-at="2017-01-03T01:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Static_Data_Validation_personal_Information_For_Previous_Address2 -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts" duration-ms="2021" started-at="2017-01-01T14:32:06Z" finished-at="2017-01-01T14:32:08Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts" duration-ms="1990" started-at="2017-01-03T01:42:41Z" finished-at="2017-01-03T01:42:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_AA_Credit_Card_NAVY_FCU_under_Accounts -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Disputed()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Disputed" duration-ms="227" started-at="2017-01-01T14:32:08Z" finished-at="2017-01-01T14:32:08Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Disputed()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Disputed" duration-ms="278" started-at="2017-01-03T01:42:43Z" finished-at="2017-01-03T01:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Disputed -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Number()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Number" duration-ms="322" started-at="2017-01-01T14:32:08Z" finished-at="2017-01-01T14:32:09Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Number()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Number" duration-ms="199" started-at="2017-01-03T01:42:44Z" finished-at="2017-01-03T01:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Number -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Type()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Type" duration-ms="401" started-at="2017-01-01T14:32:09Z" finished-at="2017-01-01T14:32:09Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Type()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Type" duration-ms="164" started-at="2017-01-03T01:42:44Z" finished-at="2017-01-03T01:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Account_Type -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Amount_Past_Due()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Amount_Past_Due" duration-ms="236" started-at="2017-01-01T14:32:09Z" finished-at="2017-01-01T14:32:09Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Amount_Past_Due()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Amount_Past_Due" duration-ms="156" started-at="2017-01-03T01:42:44Z" finished-at="2017-01-03T01:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Amount_Past_Due -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Credit_Limit()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Credit_Limit" duration-ms="366" started-at="2017-01-01T14:32:09Z" finished-at="2017-01-01T14:32:10Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Credit_Limit()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Credit_Limit" duration-ms="152" started-at="2017-01-03T01:42:44Z" finished-at="2017-01-03T01:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Credit_Limit -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Creditor_info()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Creditor_info" duration-ms="251" started-at="2017-01-01T14:32:10Z" finished-at="2017-01-01T14:32:10Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Creditor_info()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Creditor_info" duration-ms="175" started-at="2017-01-03T01:42:44Z" finished-at="2017-01-03T01:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Creditor_info -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Date_Opened()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Date_Opened" duration-ms="272" started-at="2017-01-01T14:32:10Z" finished-at="2017-01-01T14:32:10Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Date_Opened()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Date_Opened" duration-ms="161" started-at="2017-01-03T01:42:44Z" finished-at="2017-01-03T01:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Date_Opened -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Highest_Balance()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Highest_Balance" duration-ms="279" started-at="2017-01-01T14:32:10Z" finished-at="2017-01-01T14:32:10Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Highest_Balance()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Highest_Balance" duration-ms="164" started-at="2017-01-03T01:42:45Z" finished-at="2017-01-03T01:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Highest_Balance -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported" duration-ms="317" started-at="2017-01-01T14:32:10Z" finished-at="2017-01-01T14:32:11Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported" duration-ms="183" started-at="2017-01-03T01:42:45Z" finished-at="2017-01-03T01:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Last_Reported -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Payment_History()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Payment_History" duration-ms="275" started-at="2017-01-01T14:32:11Z" finished-at="2017-01-01T14:32:11Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Payment_History()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Payment_History" duration-ms="209" started-at="2017-01-03T01:42:45Z" finished-at="2017-01-03T01:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Payment_History -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Remarks()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Remarks" duration-ms="214" started-at="2017-01-01T14:32:11Z" finished-at="2017-01-01T14:32:11Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Remarks()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Remarks" duration-ms="165" started-at="2017-01-03T01:42:45Z" finished-at="2017-01-03T01:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Remarks -->
-        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Responsibility()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Responsibility" duration-ms="207" started-at="2017-01-01T14:32:11Z" finished-at="2017-01-01T14:32:11Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Responsibility()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A1_Credit_Card_NAVYFCU_Responsibility" duration-ms="267" started-at="2017-01-03T01:42:45Z" finished-at="2017-01-03T01:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A1_Credit_Card_NAVYFCU_Responsibility -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_AA_LVNV_FUNDING()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_AA_LVNV_FUNDING" duration-ms="1936" started-at="2017-01-01T14:32:11Z" finished-at="2017-01-01T14:32:13Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_AA_LVNV_FUNDING()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_AA_LVNV_FUNDING" duration-ms="1376" started-at="2017-01-03T01:42:46Z" finished-at="2017-01-03T01:42:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_AA_LVNV_FUNDING -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING1()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING1" duration-ms="257" started-at="2017-01-01T14:32:13Z" finished-at="2017-01-01T14:32:14Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING1()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING1" duration-ms="213" started-at="2017-01-03T01:42:47Z" finished-at="2017-01-03T01:42:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING1 -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING2()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING2" duration-ms="331" started-at="2017-01-01T14:32:14Z" finished-at="2017-01-01T14:32:14Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING2()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING2" duration-ms="178" started-at="2017-01-03T01:42:47Z" finished-at="2017-01-03T01:42:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_Collections_LVNV_FUNDING2 -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Collections_MED_DATA_SYS()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_Collections_MED_DATA_SYS" duration-ms="681" started-at="2017-01-01T14:32:14Z" finished-at="2017-01-01T14:32:15Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Collections_MED_DATA_SYS()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_Collections_MED_DATA_SYS" duration-ms="207" started-at="2017-01-03T01:42:47Z" finished-at="2017-01-03T01:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_Collections_MED_DATA_SYS -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Condition()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Condition" duration-ms="199" started-at="2017-01-01T14:32:15Z" finished-at="2017-01-01T14:32:15Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Condition()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Condition" duration-ms="282" started-at="2017-01-03T01:42:48Z" finished-at="2017-01-03T01:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Condition -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Disputed()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Disputed" duration-ms="278" started-at="2017-01-01T14:32:15Z" finished-at="2017-01-01T14:32:15Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Disputed()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Disputed" duration-ms="167" started-at="2017-01-03T01:42:48Z" finished-at="2017-01-03T01:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Disputed -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Number()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Number" duration-ms="282" started-at="2017-01-01T14:32:15Z" finished-at="2017-01-01T14:32:15Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Number()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Number" duration-ms="183" started-at="2017-01-03T01:42:48Z" finished-at="2017-01-03T01:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Account_Number -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Balance()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Balance" duration-ms="266" started-at="2017-01-01T14:32:15Z" finished-at="2017-01-01T14:32:16Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Balance()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Balance" duration-ms="152" started-at="2017-01-03T01:42:48Z" finished-at="2017-01-03T01:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Balance -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Creditorinfo()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Creditorinfo" duration-ms="306" started-at="2017-01-01T14:32:16Z" finished-at="2017-01-01T14:32:16Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Creditorinfo()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Creditorinfo" duration-ms="154" started-at="2017-01-03T01:42:48Z" finished-at="2017-01-03T01:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Creditorinfo -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Highest_Balance()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Highest_Balance" duration-ms="293" started-at="2017-01-01T14:32:16Z" finished-at="2017-01-01T14:32:16Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Highest_Balance()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Highest_Balance" duration-ms="152" started-at="2017-01-03T01:42:49Z" finished-at="2017-01-03T01:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Highest_Balance -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED" duration-ms="267" started-at="2017-01-01T14:32:16Z" finished-at="2017-01-01T14:32:17Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED" duration-ms="149" started-at="2017-01-03T01:42:49Z" finished-at="2017-01-03T01:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_LAST_REPORTED -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Original_Creditor()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Original_Creditor" duration-ms="496" started-at="2017-01-01T14:32:17Z" finished-at="2017-01-01T14:32:17Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Original_Creditor()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Original_Creditor" duration-ms="158" started-at="2017-01-03T01:42:49Z" finished-at="2017-01-03T01:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Original_Creditor -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Remarks()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Remarks" duration-ms="211" started-at="2017-01-01T14:32:17Z" finished-at="2017-01-01T14:32:17Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Remarks()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Remarks" duration-ms="155" started-at="2017-01-03T01:42:49Z" finished-at="2017-01-03T01:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Remarks -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Responsibility()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Responsibility" duration-ms="281" started-at="2017-01-01T14:32:17Z" finished-at="2017-01-01T14:32:18Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Responsibility()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_LVNV_FUNDING_Responsibility" duration-ms="364" started-at="2017-01-03T01:42:49Z" finished-at="2017-01-03T01:42:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_LVNV_FUNDING_Responsibility -->
-        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Personal_Information_for_Names_Reported()[pri:0, instance:example.NewTest@6e06451e]" name="Zstatic_Validation_A2_Collections_Personal_Information_for_Names_Reported" duration-ms="246" started-at="2017-01-01T14:32:18Z" finished-at="2017-01-01T14:32:18Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A2_Collections_Personal_Information_for_Names_Reported()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A2_Collections_Personal_Information_for_Names_Reported" duration-ms="259" started-at="2017-01-03T01:42:50Z" finished-at="2017-01-03T01:42:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Zstatic_Validation_A2_Collections_Personal_Information_for_Names_Reported -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@6e06451e]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-01-01T14:32:18Z" finished-at="2017-01-01T14:32:18Z">
+        <test-method status="PASS" signature="Zstatic_Validation_A3_Credit_Inquiries_BRCLYSBANKDE()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A3_Credit_Inquiries_BRCLYSBANKDE" duration-ms="2127" started-at="2017-01-03T01:42:50Z" finished-at="2017-01-03T01:42:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- example.NewTest -->
+        </test-method> <!-- Zstatic_Validation_A3_Credit_Inquiries_BRCLYSBANKDE -->
+        <test-method status="PASS" signature="Zstatic_Validation_A3_Credit_Inquiries_QUICKEN_LOAN_ESTIMATED_REMOVAL_DATE()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A3_Credit_Inquiries_QUICKEN_LOAN_ESTIMATED_REMOVAL_DATE" duration-ms="1888" started-at="2017-01-03T01:42:52Z" finished-at="2017-01-03T01:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A3_Credit_Inquiries_QUICKEN_LOAN_ESTIMATED_REMOVAL_DATE -->
+        <test-method status="PASS" signature="Zstatic_Validation_A3_Credit_Inquiries_QUICKEN_LOAN_INQUIRER_CONTACT_DETAILS()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A3_Credit_Inquiries_QUICKEN_LOAN_INQUIRER_CONTACT_DETAILS" duration-ms="1922" started-at="2017-01-03T01:42:54Z" finished-at="2017-01-03T01:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A3_Credit_Inquiries_QUICKEN_LOAN_INQUIRER_CONTACT_DETAILS -->
+        <test-method status="PASS" signature="Zstatic_Validation_A3_Credit_Inquries_QUICKEN_LOAN_DATE()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A3_Credit_Inquries_QUICKEN_LOAN_DATE" duration-ms="2445" started-at="2017-01-03T01:42:56Z" finished-at="2017-01-03T01:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A3_Credit_Inquries_QUICKEN_LOAN_DATE -->
+        <test-method status="PASS" signature="Zstatic_Validation_A3_Credit_Inquries_QUICKEN_LOAN_TYPE()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A3_Credit_Inquries_QUICKEN_LOAN_TYPE" duration-ms="2499" started-at="2017-01-03T01:42:58Z" finished-at="2017-01-03T01:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A3_Credit_Inquries_QUICKEN_LOAN_TYPE -->
+        <test-method status="PASS" signature="Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_Contact_Details()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_Contact_Details" duration-ms="2480" started-at="2017-01-03T01:43:01Z" finished-at="2017-01-03T01:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_Contact_Details -->
+        <test-method status="PASS" signature="Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_DateFiled()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_DateFiled" duration-ms="3517" started-at="2017-01-03T01:43:03Z" finished-at="2017-01-03T01:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_DateFiled -->
+        <test-method status="PASS" signature="Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_Status()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_Status" duration-ms="2615" started-at="2017-01-03T01:43:07Z" finished-at="2017-01-03T01:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A4_Public_Records_LIEN_Recoder_Of_Deeds_Status -->
+        <test-method status="PASS" signature="Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds" duration-ms="2577" started-at="2017-01-03T01:43:09Z" finished-at="2017-01-03T01:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds -->
+        <test-method status="PASS" signature="Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds_Date_Closed()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds_Date_Closed" duration-ms="2642" started-at="2017-01-03T01:43:12Z" finished-at="2017-01-03T01:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds_Date_Closed -->
+        <test-method status="PASS" signature="Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds_Reference_Number()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds_Reference_Number" duration-ms="3082" started-at="2017-01-03T01:43:15Z" finished-at="2017-01-03T01:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zstatic_Validation_A4_Public_Records_TAX_LIEN_Recoder_Of_Deeds_Reference_Number -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:example.CreditReports_Tests@5cb9f472]" name="afterclass" is-config="true" duration-ms="4662" started-at="2017-01-03T01:43:18Z" finished-at="2017-01-03T01:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- example.CreditReports_Tests -->
+      <class name="example.Dashboard_Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="beforeTest" is-config="true" duration-ms="97273" started-at="2017-01-03T01:38:46Z" finished-at="2017-01-03T01:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Balance_BK_OF_AMER()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_BK_OF_AMER" duration-ms="818" started-at="2017-01-03T01:43:22Z" finished-at="2017-01-03T01:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_BK_OF_AMER -->
+        <test-method status="PASS" signature="Balance_CAR_LOAN_NAVY_FCU()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_CAR_LOAN_NAVY_FCU" duration-ms="341" started-at="2017-01-03T01:43:23Z" finished-at="2017-01-03T01:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_CAR_LOAN_NAVY_FCU -->
+        <test-method status="PASS" signature="Balance_CAR_LOAN_NAVY_FCU1()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_CAR_LOAN_NAVY_FCU1" duration-ms="301" started-at="2017-01-03T01:43:24Z" finished-at="2017-01-03T01:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_CAR_LOAN_NAVY_FCU1 -->
+        <test-method status="PASS" signature="Balance_LINE_OF_CREDIT_BENFCL_HFC()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_LINE_OF_CREDIT_BENFCL_HFC" duration-ms="298" started-at="2017-01-03T01:43:24Z" finished-at="2017-01-03T01:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_LINE_OF_CREDIT_BENFCL_HFC -->
+        <test-method status="PASS" signature="Balance_LINE_OF_CREDIT_NAVY_FCU()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_LINE_OF_CREDIT_NAVY_FCU" duration-ms="275" started-at="2017-01-03T01:43:24Z" finished-at="2017-01-03T01:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_LINE_OF_CREDIT_NAVY_FCU -->
+        <test-method status="PASS" signature="Balance_LVNV_FUNDING()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_LVNV_FUNDING" duration-ms="323" started-at="2017-01-03T01:43:24Z" finished-at="2017-01-03T01:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_LVNV_FUNDING -->
+        <test-method status="PASS" signature="Balance_LVNV_FUNDING_1()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_LVNV_FUNDING_1" duration-ms="353" started-at="2017-01-03T01:43:25Z" finished-at="2017-01-03T01:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_LVNV_FUNDING_1 -->
+        <test-method status="PASS" signature="Balance_MED_DATA_SYS()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_MED_DATA_SYS" duration-ms="332" started-at="2017-01-03T01:43:25Z" finished-at="2017-01-03T01:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_MED_DATA_SYS -->
+        <test-method status="PASS" signature="Balance_MIL_STAR()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_MIL_STAR" duration-ms="293" started-at="2017-01-03T01:43:25Z" finished-at="2017-01-03T01:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_MIL_STAR -->
+        <test-method status="PASS" signature="Balance_SECURED_NAVY_FCU()[pri:0, instance:example.Dashboard_Test@6e1567f1]" name="Balance_SECURED_NAVY_FCU" duration-ms="271" started-at="2017-01-03T01:43:26Z" finished-at="2017-01-03T01:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balance_SECURED_NAVY_FCU -->
+      </class> <!-- example.Dashboard_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

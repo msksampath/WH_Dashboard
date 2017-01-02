@@ -3,30 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="example.NewTest">
+      <class name="example.Dashboard_Test">
         <methods>
-          <include name="No_of_Collections"/>
-          <include name="Balance_Collections4"/>
-          <include name="Credit_Inquiry1"/>
-          <include name="Balance_Collections2"/>
-          <include name="No_of_Public_Records"/>
-          <include name="Amount_PublicRecords"/>
-          <include name="beforeTest"/>
-          <include name="Balance_Accounts3"/>
-          <include name="Balance_Accounts6"/>
-          <include name="Balance_Accounts1"/>
-          <include name="Balance_Accounts4"/>
-          <include name="Balance_Accounts7"/>
-          <include name="Balance_Accounts5"/>
-          <include name="Balance_Accounts8"/>
-          <include name="Balance_Collections3"/>
-          <include name="No_of_Credit_Inquires"/>
-          <include name="Balance_Accounts2"/>
-          <include name="Credit_Inquiry2"/>
-          <include name="Balance_Collections1"/>
-          <include name="No_of_Open_Accounts"/>
+          <include name="Balance_BK_OF_AMER"/>
+          <include name="Balance_CAR_LOAN_NAVY_FCU"/>
+          <include name="Balance_LVNV_FUNDING_1"/>
+          <include name="Balance_LINE_OF_CREDIT_BENFCL_HFC"/>
+          <include name="Balance_LVNV_FUNDING"/>
+          <include name="Balance_LINE_OF_CREDIT_NAVY_FCU"/>
+          <include name="Balance_MED_DATA_SYS"/>
+          <include name="Balance_SECURED_NAVY_FCU"/>
+          <include name="Balance_MIL_STAR"/>
+          <include name="Balance_CAR_LOAN_NAVY_FCU1"/>
         </methods>
-      </class> <!-- example.NewTest -->
+      </class> <!-- example.Dashboard_Test -->
+      <class name="example.CreditReports_Tests">
+        <methods>
+          <include name="A1_Navigation"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- example.CreditReports_Tests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
